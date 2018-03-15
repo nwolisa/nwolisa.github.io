@@ -6,3 +6,4 @@ plugins:
 footer-links:
   github: nwolisa
   twitter: nwolisa
+theme: jekyll-theme-time-machine
