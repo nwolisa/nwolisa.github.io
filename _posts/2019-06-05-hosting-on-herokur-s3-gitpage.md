@@ -15,22 +15,29 @@ Below I will describe the steps to create a static website using Node/Express an
 
 Create a GitHub repository
 	Clone the application to your local machine
+
 Create an ExpressJS application
 	`$ express examplesite --git -e`
+
 Create an app on Heroku
-	Go to the deploy and tab and choose Github as your deployment method
-	Choose the repository you want to deploy
-	Choose the branch (default master) you want to deploy
+	- Go to the deploy and tab and choose Github as your deployment method
+	- Choose the repository you want to deploy
+	- Choose the branch (default master) you want to deploy
+
 Push your changes to GitHub
 	This will trigger an auto build on Heroku
 	Use heroku cli tool and the command below to view the logs:
 		heroku logs --tail --app examplesite
+
 Register a domain on Route53
+
 Go to the setting tab in Heroku
-	Click on Add Domain 
-	Or use the command below:
+	- Click on Add Domain 
+	- Or use the command below:
 	heroku domains:add www.examplesite.com --app examplesite
+
 View your added domain and the Heroku DNS target
+
 Go to the Route53 dashboard and add the CName record to the domain
 	Create Record Set
 	Name: www.examplesite.com
