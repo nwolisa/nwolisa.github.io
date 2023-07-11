@@ -13,6 +13,5 @@ Engineer, Software Engineer, Father.
 </div>
 
 <div class="blurb">
-	<h1>Gozie Nwolisa</h1>
-	<p>Email me: nwolisag@gmail.com </p>
+	<p>2348062447004</p>
 </div><!-- /.blurb -->
